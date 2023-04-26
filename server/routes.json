@@ -1,0 +1,17 @@
+{
+  "users": 600,
+  
+  "notes": 640,
+  "notes/:noteId": "/notes?noteId=:noteId",
+
+  "hats": 664,
+  "/hats/:name": "/hats?name=:name",
+  "jackets": 664,
+  "/jackets/:name": "/jackets?name=:name",
+  "sneakers": 664,
+  "/sneakers/:name": "/sneakers?name=:name",
+  "womens": 664,
+  "/womens/:name": "/womens?name=:name",
+  "mens": 664,
+  "/mens/:name": "/mens?name=:name"
+}

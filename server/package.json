@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "json-server-auth db.json -r routes.json --port 4000 --watch"
+  },
+  "devDependencies": {
+    "cors": "2.8.5",
+    "json-server": "0.17.3",
+    "json-server-auth": "2.1.0",
+    "jsonwebtoken": "9.0.0"
+  }
+}
