@@ -1,16 +1,20 @@
-import { string } from 'prop-types';
+import { func, string } from 'prop-types';
+import { useId } from 'react';
 
-function PasswordInput({ id, label = '비밀번호' }) {
+function PasswordInput({ label = '비밀번호', value, onChange }) {
+  const id = useId();
+
   return (
     <div className="PasswordInput">
       <label htmlFor={id}>{label}</label>
-      <input type="password" id={id} />
+      <input type="password" id={id} value={value} onChange={onChange} />
     </div>
   );
 }
 
 PasswordInput.propTypes = {
-  id: string.isRequired,
+  value: string,
+  onChange: func,
   label: string,
 };
 

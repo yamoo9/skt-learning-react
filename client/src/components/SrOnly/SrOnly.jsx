@@ -1,4 +1,4 @@
-import '../styles/SrOnly.css';
+import classes from './SrOnly.module.css';
 import { node, string } from 'prop-types';
 
 export default function SrOnly({
@@ -8,7 +8,7 @@ export default function SrOnly({
 }) {
   return (
     <ComponentName
-      className="SrOnly"
+      className={classes.SrOnly}
       htmlFor={htmlFor}
       // style={{
       //   position: 'absolute',

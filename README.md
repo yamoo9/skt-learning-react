@@ -1,3 +1,14 @@
+## 남은 시간 학습 내용
+
+- [x] CSS module
+- [x] Props vs. State (with React Hooks)
+- [ ] Client Side Routing
+- [ ] Build Process
+  - [ ] performance
+  - [ ] Optimization
+  - [ ] SEO
+  - [ ] A11Y
+
 # 학습 주제
 
 다음 주제를 학습합니다.

@@ -1,8 +1,17 @@
 {
-  "users": [],
-  
+  "users": [
+    {
+      "email": "yamoo9@naver.com",
+      "password": "$2a$10$0L436sESclcZwwIof7h8QejT.tUj7pub9MJ58zsRsDcMRxn17/0m6",
+      "id": 1
+    },
+    {
+      "email": "susumi@sk.com",
+      "password": "$2a$10$qLgJGsrPYkFGwnDL20JzUeGkqSfMlhmE4RdeBV9eSkyaziK21lA5a",
+      "id": 2
+    }
+  ],
   "notes": [],
-
   "hats": [
     {
       "id": 1,
