@@ -40,4 +40,6 @@ const webpackConfig = {
   }
 };
 
+
+// CommonJS
 module.exports = webpackConfig;
